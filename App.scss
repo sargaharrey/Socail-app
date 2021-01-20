@@ -1,0 +1,190 @@
+@import './bootstrap/scss/bootstrap.scss';
+*{
+    box-sizing: border-box;
+
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+   font-family: 'Poppins', sans-serif;
+}
+p,h1,h2,h3,h4,h5{
+    margin:0px;
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+     a{
+                text-decoration: none;
+            }
+    .navbar-nav{
+        margin: 0px;
+        li{
+            margin: 0 15px;
+           
+        }
+    }
+    form{
+    button{
+        width: 100px;
+    }
+}
+}
+
+
+	.ChatSection{
+        height: 90vh;
+        .chat-left{
+            overflow-y: scroll;
+            height: 90vh;
+            background-color: #2C3E50;
+
+        .head{
+            margin:30px 0;
+            color: #fff;
+            padding: 0 15px;
+           .form-outline{
+               display: flex;
+               margin-top: 30px;
+            input{
+                width: 85%;
+                height: 40px;
+                display: inline-block;
+                border-radius: 20px;
+                border: 1px solid transparent;
+                background-color: #32465A;
+                color: #fff;
+            }
+            button{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 50px;
+                height: 40px;
+                background-color: #3A5260;
+                color: #fff;
+                margin-left: 15PX;
+                outline: none;
+                border:none;
+                cursor:pointer;
+
+            }
+        }
+        }
+        .body{
+           
+            
+            .item{
+                display: flex;
+                padding: 15px;
+                cursor: pointer;
+                &.active{
+                   background-color: #32465A; 
+                }
+                .left{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    object-position: 50%;
+                }
+            }
+            .right{
+                margin-left: 15px;
+                h3{
+                    color: #fff;
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+                p{
+                   color:   #ffffff50;
+                    font-size: 14px;
+                }
+            }
+        }
+        }
+    }
+    .chat-right{
+        .head{
+            background-color: #fff; 
+            border-bottom: 1px solid #ddd;
+            padding:10px;
+            display: flex;
+            justify-content: space-between;
+           .info{
+               display: flex;
+           
+            .left{ 
+                
+                img{
+                    width: 50px;
+                    height: 50px;
+                    object-fit: cover;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                }
+
+            }
+            .right{
+                margin-left: 15px;
+                h2{
+                    color:#050505;
+                    font-size: 24px;
+                }
+            }
+            }
+            .opt{
+                display: flex;
+                align-items: center;
+                color: #000;
+            }
+           
+        }
+        .chat-body{
+            height: 420px;
+            background-color: #E6EAEA;
+            padding: 30px;
+            .item{
+                display: flex;
+                margin: 15px;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    border: 1px solid transparent;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            
+              p{
+                  background-color: #435F7A;
+                  color: #fff;
+                  font-size: 12px;
+                  margin-left: 10px;
+                  padding: 15px;
+                  border: 1px solid transparent;
+                  border-radius: 20px;
+              }
+                
+            }
+        }
+        .chat-foot{
+            width: 100%;
+            display: flex;
+            
+            input{
+                width: 85%;
+
+                height: 50px;
+                padding:0 30px;
+                border: none;
+            }
+            button{
+                width: 15%;
+            }
+        }
+    }
+    }
